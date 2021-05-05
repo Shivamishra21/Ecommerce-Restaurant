@@ -10,7 +10,7 @@ import {
   ProductsContainer,
   ProductInfo,
 } from "../Products/ProductElement";
-//import { productData } from "../Products/data";
+
 const Products = ({heading,data}) => {
   return (
     <div>

@@ -18,7 +18,7 @@ const Footer = () => {
             <SocialLogo to="/">Pizza</SocialLogo>
             <SocialIcons>
               <SocialIconsLink
-                href="/"
+                href="https://www.facebook.com/profile.php?id=100043265192641"
                 target="_blank"
                 aria-label="Facebook"
                 rel="noopener noreferrer"
@@ -26,7 +26,7 @@ const Footer = () => {
                 <FaFacebook />
               </SocialIconsLink>
               <SocialIconsLink
-                href="/"
+                href="linkedin.com/in/shiva-mishra-a802881a2"
                 target="_blank"
                 aria-label="LinkedIn"
                 rel="noopener noreferrer"
@@ -34,7 +34,7 @@ const Footer = () => {
                 <FaLinkedin />
               </SocialIconsLink>
               <SocialIconsLink
-                href="/"
+                href="https://www.instagram.com/shivii340"
                 target="_blank"
                 aria-label="Instagram"
                 rel="noopener noreferrer"
@@ -42,7 +42,7 @@ const Footer = () => {
                 <FaInstagram />
               </SocialIconsLink>
               <SocialIconsLink
-                href="/"
+                href="https://github.com/Shivamishra21"
                 target="_blank"
                 aria-label="Github"
                 rel="noopener noreferrer"
