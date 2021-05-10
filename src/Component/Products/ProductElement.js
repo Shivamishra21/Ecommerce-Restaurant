@@ -6,39 +6,60 @@ export const ProductsContainer = styled.div`
   background: #150f0f;
   color: #fff;
 `;
+
+
 export const ProductWrapper = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin: 0 auto;
-  @media screen and (max-width:420px){
+  ${'' /* these medias are not working you need to work on it */}
+  ${'' /* @media screen and (max-width:320px){
     flex:100%;
   }
-  @media screen and(max-width:820px){
+  @media screen and(min-width:390px){
     flex:50%;
-  }
+  } */}
 `;
+
+
 export const ProductCard = styled.div`
   margin: 0 2rem;
   line-height: 2;
   width: 300px;
 `;
 
+
 export const ProductImg = styled.img`
   height: 300px;
   min-width: 300px;
   max-width: 100%;
   box-shadow: 8px 8px #fdc500;
+
+  ${'' /* &:hover{
+    
+    box-shadow: 1px 4px 20px 4px #fdc500
+  } */}
 `;
+
+
 export const ProductsHeading = styled.h1`
-  fonct-size: clamp(2rem, 2.5vw, 3rem);
+  font-size: clamp(2rem, 2.5vw, 3rem);
   text-align: center;
-  margin-button: 5rem;
+  margin-bottom: 3rem;
+  padding-top:-1rem
+
 `;
+
+
 export const ProductTitle = styled.h2`
   font-weight: 400;
-  font-sizr: 1.5rem;
+  font-size: 1.5rem;
+  display:flex;
+  flex-wrap:no-wrap;
 `;
+
+
 export const ProductInfo = styled.div`
   display: flex;
   flex-direction: column;
@@ -47,6 +68,7 @@ export const ProductInfo = styled.div`
   padding: 2rem;
   text-align: center;
 `;
+
 
 export const ProductDesc = styled.p`
   margin-bottom: 1rem;
@@ -65,7 +87,12 @@ export const ProductButton = styled.button`
     cursor: pointer;
     color: #fff;
   }
+  &:active{
+    color:black;
+  }
 `;
+
+
 export const ProductPrice = styled.p`
   margin-button: 1rem;
   font-size: 2rem;

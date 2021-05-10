@@ -4,11 +4,10 @@ import product6 from "../../Images/product6.jfif";
 import product2 from "../../Images/product2.jfif";
 import product3 from "../../Images/product3.jfif";
 import product7 from "../../Images/product7.jfif";
-import product10 from "../../Images/product10.jpg";
+import product10 from "../../Images/product10.jfif";
 import product5 from "../../Images/product5.jfif";
 import product8 from "../../Images/product8.jfif";
 import product9 from "../../Images/product9.jfif";
-
 import dessert2 from "../../Images/dessert2.jpg";
 import dessert1 from "../../Images/dessert1.jfif";
 import dessert5 from "../../Images/dessert5.jfif";
@@ -24,82 +23,82 @@ export const productData = [
   {
     img: product1,
     alt: "Pizza",
-    name: "Supreme Pizza",
+    name: "Supreme Pizza1",
     desc: "Mariana sauce,basil,italian sausage,roma tomatoes ,olives and pesto",
-    price: "$11.55",
+    price: 11.55,
     button: "Add to Cart",
   },
 
   {
     img: product2,
     alt: "Pizza",
-    name: "Supreme Pizza",
+    name: "Supreme Pizza2",
     desc: "Mariana sauce,basil,italian sausage,roma tomatoes ,olives and pesto",
-    price: "$19.00",
+    price: 19.55,
     button: "Add to Cart",
   },
   {
     img: product3,
     alt: "Pizza",
-    name: "Supreme Pizza",
+    name: "Supreme Pizza3",
     desc: "Mariana sauce,basil,italian sausage,roma tomatoes ,olives and pesto",
-    price: "$14.55",
+    price:14.55,
     button: "Add to Cart",
   },
   {
     img: product4,
     alt: "Pizza",
-    name: "Supreme Pizza",
+    name: "Supreme Pizza4",
     desc: "Mariana sauce,basil,italian sausage,roma tomatoes ,olives and pesto",
-    price: "$14.55",
+    price: 14.55,
     button: "Add to Cart",
   },
   {
     img: product5,
     alt: "Pizza",
-    name: "Supreme Pizza",
+    name: "Supreme Pizza5",
     desc: "Mariana sauce,basil,italian sausage,roma tomatoes ,olives and pesto",
-    price: "$14.55",
+    price: 14.55,
     button: "Add to Cart",
   },
   {
     img: product6,
     alt: "Pizza",
-    name: "Supreme Pizza",
+    name: "Supreme Pizza6",
     desc: "Mariana sauce,basil,italian sausage,roma tomatoes ,olives and pesto",
-    price: "$14.55",
+    price: 14.55,
     button: "Add to Cart",
   },
   {
     img: product7,
     alt: "Pizza",
-    name: "Supreme Pizza",
+    name: "Supreme Pizza7",
     desc: "Mariana sauce,basil,italian sausage,roma tomatoes ,olives and pesto",
-    price: "$14.55",
+    price: 14.55,
     button: "Add to Cart",
   },
   {
     img: product8,
     alt: "Pizza",
-    name: "Supreme Pizza",
+    name: "Supreme Pizza8",
     desc: "Mariana sauce,basil,italian sausage,roma tomatoes ,olives and pesto",
-    price: "$14.55",
+    price: 14.55,
     button: "Add to Cart",
   },
   {
     img: product9,
     alt: "Pizza",
-    name: "Supreme Pizza",
+    name: "Supreme Pizza9",
     desc: "Mariana sauce,basil,italian sausage,roma tomatoes ,olives and pesto",
-    price: "$14.55",
+    price:14.55,
     button: "Add to Cart",
   },
   {
     img: product10,
     alt: "Pizza",
-    name: "Supreme Pizza",
+    name: "Supreme Pizza10",
     desc: "Mariana sauce,basil,italian sausage,roma tomatoes ,olives and pesto",
-    price: "$14.55",
+    price: 14.55,
     button: "Add to Cart",
   },
 ];
@@ -110,7 +109,7 @@ export const productDataDessert = [
     alt: "Dessert",
     name: "Doughnut",
     desc: "Mariana sauce,basil,italian sausage,roma tomatoes ,olives and pesto",
-    price: "$11.55",
+    price: 14.55,
     button: "Add to Cart",
   },
 
@@ -119,7 +118,7 @@ export const productDataDessert = [
     alt: "Dessert",
     name: "Chocolate Pastry",
     desc: "Mariana sauce,basil,italian sausage,roma tomatoes ,olives and pesto",
-    price: "$19.00",
+    price: 14.55,
     button: "Add to Cart",
   },
   {
@@ -127,7 +126,7 @@ export const productDataDessert = [
     alt: "Dessert",
     name: "Ice-creame",
     desc: "Mariana sauce,basil,italian sausage,roma tomatoes ,olives and pesto",
-    price: "$14.55",
+    price:14.55,
     button: "Add to Cart",
   },
   {
@@ -135,7 +134,7 @@ export const productDataDessert = [
     alt: "Dessert",
     name: "Ice-creame",
     desc: "Mariana sauce,basil,italian sausage,roma tomatoes ,olives and pesto",
-    price: "$14.55",
+    price: 14.55,
     button: "Add to Cart",
   },
   {
@@ -143,7 +142,7 @@ export const productDataDessert = [
     alt: "Dessert",
     name: "Ice-creame",
     desc: "Mariana sauce,basil,italian sausage,roma tomatoes ,olives and pesto",
-    price: "$14.55",
+    price: 14.55,
     button: "Add to Cart",
   },
   {
@@ -151,7 +150,7 @@ export const productDataDessert = [
     alt: "Dessert",
     name: "Ice-creame",
     desc: "Mariana sauce,basil,italian sausage,roma tomatoes ,olives and pesto",
-    price: "$14.55",
+    price: 14.55,
     button: "Add to Cart",
   },
   {
@@ -159,7 +158,7 @@ export const productDataDessert = [
     alt: "Dessert",
     name: "Ice-creame",
     desc: "Mariana sauce,basil,italian sausage,roma tomatoes ,olives and pesto",
-    price: "$14.55",
+    price: 14.55,
     button: "Add to Cart",
   },
   {
@@ -167,7 +166,7 @@ export const productDataDessert = [
     alt: "Dessert",
     name: "Ice-creame",
     desc: "Mariana sauce,basil,italian sausage,roma tomatoes ,olives and pesto",
-    price: "$14.55",
+    price: 14.55,
     button: "Add to Cart",
   },
   {
@@ -175,7 +174,7 @@ export const productDataDessert = [
     alt: "Dessert",
     name: "Ice-creame",
     desc: "Mariana sauce,basil,italian sausage,roma tomatoes ,olives and pesto",
-    price: "$14.55",
+    price:14.55,
     button: "Add to Cart",
   },
   {
@@ -183,7 +182,7 @@ export const productDataDessert = [
     alt: "Dessert",
     name: "Ice-creame",
     desc: "Mariana sauce,basil,italian sausage,roma tomatoes ,olives and pesto",
-    price: "$14.55",
+    price: 14.55,
     button: "Add to Cart",
   },
 ];
